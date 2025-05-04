@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #121212; /* fundo preto */
+    color: #e0e0e0; /* texto claro */
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #1e1e1e; /* cinza escuro */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+h1, h2 {
+    color: #bb86fc; /* roxo claro */
+}
+
+.form-container, .resumo-container, .lista-container {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #2c2c2c; /* containers em cinza escuro */
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #bb86fc;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border: 1px solid #444;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #bb86fc;
+    color: #121212;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #9e6fdb;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    color: #e0e0e0;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+
+th {
+    background-color: #333;
+}
+
+tr:hover {
+    background-color: #2a2a2a;
+}
+
+.btn-remover {
+    background-color: #cf6679;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: white;
+}
+
+.btn-remover:hover {
+    background-color: #b00020;
+}
+
+#resumoMensal {
+    font-size: 18px;
+    padding: 10px;
+    background-color: #2a2a2a;
+    color: #bb86fc;
+    border-radius: 4px;
+}
+
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+tr.pago {
+    background-color: #1b5e20;
+}
+
+tr.nao-pago {
+    background-color: #5c1a1a;
+}

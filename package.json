@@ -1,0 +1,38 @@
+{
+  "name": "controle-despesas",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^latest",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.example.electron-speechat",
+    "productName": "Electron speechat",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "package.json"
+    ],
+    "win": {
+      "icon": "./icon.ico",
+      "target": "nsis"
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  },
+  "dependencies": {
+    "electron-store": "^10.0.1"
+  }
+}

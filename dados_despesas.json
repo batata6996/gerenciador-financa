@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1746292020472",
+    "descricao": "agua mineral",
+    "valor": 35,
+    "categoria": "Alimentação",
+    "pago": false
+  },
+  {
+    "id": "1746292042806",
+    "descricao": "crunchyroll",
+    "valor": 20,
+    "categoria": "Assinaturas",
+    "pago": false
+  },
+  {
+    "id": "1746296487556",
+    "descricao": "nubank",
+    "valor": 40,
+    "categoria": "Contas",
+    "pago": false
+  },
+  {
+    "id": "1746296516796",
+    "descricao": "depilação torax",
+    "valor": 70.89,
+    "categoria": "Saúde",
+    "pago": false
+  },
+  {
+    "id": "1746296536540",
+    "descricao": "depilação barba",
+    "valor": 64.34,
+    "categoria": "Moradia",
+    "pago": false
+  },
+  {
+    "id": "1746296551649",
+    "descricao": "depilação do pau",
+    "valor": 62.49,
+    "categoria": "Moradia",
+    "pago": false
+  },
+  {
+    "id": "1746300780074",
+    "descricao": "areia gato",
+    "valor": 50,
+    "categoria": "Saúde",
+    "pago": false
+  },
+  {
+    "id": "1746300801250",
+    "descricao": "mesa",
+    "valor": 34,
+    "categoria": "Moradia",
+    "pago": true
+  }
+]
